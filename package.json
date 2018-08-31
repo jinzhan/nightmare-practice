@@ -1,0 +1,22 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node index preFetch",
+    "start": "node index fetch",
+    "poststart": "node index postFetch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "nightmare": "^3.0.1"
+  },
+  "dependencies": {
+    "config": "^2.0.1"
+  }
+}
