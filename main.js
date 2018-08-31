@@ -54,7 +54,7 @@ export const preFetch = async () => {
         .then(data => {
             const content = 'window.localDatalist = ' + data + ';';
             fs.writeFile(__dirname + `/output/data.js`, content, 'utf8', () => {
-                console.log('write [data-list.json] success!');
+                console.log('write [data.js] success!');
             });
 
             fs.writeFile(__dirname + `/output/data.json`, data, 'utf8', () => {
