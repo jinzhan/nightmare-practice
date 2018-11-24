@@ -1,3 +1,3 @@
-# nightmare-practice
+# tmplmsg-crawler
 
-nightmare练手，实现微信消息模板的抓取。
+基于nightmare练手，实现多页面的数据抓取。
